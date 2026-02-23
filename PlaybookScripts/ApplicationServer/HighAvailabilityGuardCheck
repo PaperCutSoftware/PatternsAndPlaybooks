@@ -1,6 +1,6 @@
  # --- Configuration ---
 # The hostname or IP address of your SQL Server.
-$sqlServer = "192.168.1.100"
+$sqlServer = "192.168.1.10"
 
 # The SQL Authenticated username and password
 $username = "papercut"
