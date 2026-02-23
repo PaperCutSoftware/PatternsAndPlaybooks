@@ -1,13 +1,13 @@
 # --- Configuration ---
 # The hostname or IP address of your SQL Server.
-$sqlServer = ""
+$sqlServer = "192.168.1.100"
 
 # The SQL Authenticated username and password
 $username = "papercut"
 $password = "papercut"
 
 # The name of a database on that server (e.g., 'master').
-$database = "papercut_03"
+$database = "papercut"
 
 # The query to get the database's collation.
 $query = "SELECT DATABASEPROPERTYEX('$database', 'Collation') AS DatabaseCollation;"
