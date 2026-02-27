@@ -8,7 +8,7 @@
 
 # --- 1. CONFIGURATION ---
 
-$serverHost = "localhost" 
+$serverHost = "" 
 $serverPort = 9191
 $httpProtocol = "http"
 $xmlRpcUrl = "{0}://{1}:{2}/rpc/extdevice/xmlrpc" -f $httpProtocol, $serverHost, $serverPort
